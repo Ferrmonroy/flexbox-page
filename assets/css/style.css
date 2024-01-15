@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+body {
+  margin: 0 auto;
+  color: rgb(243, 243, 243);
+  font-size: 1.2em;
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  max-width: 70em;
+  text-align: center;
+}
+
+/*CABECERA*/
+
+header h1 {
+  font-size: 1.5em;
+  margin: auto;
+  padding: 1em;
+}
+
+h1::first-letter {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(61, 94, 204);
+}
+
+.container {
+  height: 40em;
+  background-image: url("../imgs/headerimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*PRINCIPAL*/
+
+main {
+  display: flex;
+  gap: 3em;
+  padding: 2em;
+  justify-content: start;
+  align-items: start;
+  background: #000;
+}
+
+main img {
+  width: 25em;
+  height: 15em;
+  border: 1px solid #1c1c1c;
+}
+
+main p {
+  padding: 2em;
+  color: #b5b5b5;
+  font-size: 0.8em;
+  width: 40em;
+  text-align: justify;
+}
+
+/*SECCIÓN 1*/
+
+.caracteristicas {
+  background-color: #141a22;
+}
+
+.flex {
+  display: flex;
+  font-size: 0.9em;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+
+.caracteristicas h2 {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: -1em;
+}
+
+/*SECCIÓN 2*/
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  background-color: #000;
+}
+
+.boxes img {
+  border: 1px solid #141414;
+  height: 12.6em;
+  max-width: 100%;
+  width: 19.7em;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #141a22;
+  margin-top: 2em;
+  text-align: center;
+  padding: 1em;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+/*LINKS*/
+footer a {
+  color: rgb(61, 94, 204);
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: white;
+}
